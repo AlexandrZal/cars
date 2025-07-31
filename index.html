@@ -1,11 +1,75 @@
 <!DOCTYPE html>
-<html lang="en" data-beasties-container>
-  <head>
-    <title>My app</title>
+<html lang="en">
+<head>
     <meta charset="UTF-8">
-    <base href="/cars/">
-  <style>*{margin:0;padding:0}html{scroll-behavior:smooth}body{background-color:#212121;font-family:Helvetica,sans-serif;letter-spacing:-1px;color:#fff}</style><link rel="stylesheet" href="styles.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="styles.css"></noscript></head>
-  <body>
-    <app-root>Loading...</app-root>
-  <script src="polyfills.js" type="module"></script><script src="main.js" type="module"></script></body>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="resume">
+    <meta name="description" content="resume">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+
+    <div class="info"> 
+        <img src="https://avatars.mds.yandex.net/get-yapic/27232/8vQTLwhYm8bejDgoHXuIPFa3qHc-1/orig" alt="Это я, честно вру" class="avatar"> 
+        <div class="info-text">
+            <h1>Александр</h1>
+            <p>ПИВО ПИВО ПИВО</p>
+            <p>Список соц. сетей:</p>
+            <a href="#">OnlyFans</a> | <a href="#">PornHabr</a>
+        </div>                
+    </div>  
+
+    <div class="card-1">
+        <h2>Мои хобби</h2>
+        <ul class="list">
+            <li>Пинать хуи</li>
+            <li>Смотреть шортсы</li>
+            <li>Ковырять в носу</li>
+            <li>Не понимать почему я не миллионер</li>
+        </ul>
+    </div>
+
+    <div class="card-2">
+    <h2>Опыт работы</h2>
+        <table class="table">
+            <tr>
+                <td><strong>Название</strong></td>
+                <td><strong>Должность</strong></td>
+                <td><strong>Год</strong></td>
+            </tr>
+            <tr>
+                <td>Быть ебантяем</td>
+                <td>Главный исполнитель</td>
+                <td>1999 - по сей день</td>
+            </tr>
+    </table>
+    </div>
+
+    <div class="card-3">    
+    <form class="form">
+        <h2>Связаться со мной</h2>
+        <div>
+            <label for="text">Ваше имя:</label>
+            <input type="text" id="text" placeholder="Введите имя">
+        </div>
+
+        <div>
+            <label for="email">Ваш email:</label>
+            <input type="email" id="email" placeholder="Введите email">
+        </div>
+
+            <label for="message">Ваше сообщение:</label>
+            <br>
+            <textarea name="message" id="message" placeholder="Введите сообщение..."></textarea>
+            <br>
+            <button class="btn">Отправить</button>
+    </form>
+    </div>
+    </div>
+</body>
 </html>
